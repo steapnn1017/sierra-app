@@ -1,4 +1,4 @@
-### 2. Backend
+### Backend
 
 cd backend
 python3 -m venv venv
@@ -8,12 +8,13 @@ uvicorn server:app --reload --port 8001
 
 Backend běží na: http://localhost:8001
 
-backend env = MONGO_URL=mongodb://localhost:27017
+backend env = 
+MONGO_URL=mongodb://localhost:27017
 DB_NAME=sierra97_db
 CORS_ORIGINS=*
 GROQ_API_KEY=your_api_key_here
 
-### 3. Frontend
+### Frontend
 
 Otevři nový terminál:
 
